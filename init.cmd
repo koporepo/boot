@@ -1,7 +1,7 @@
 @echo off
 
-echo 0. Pycharm + Python3.10
-winget install Git.Git JetBrains.PyCharm Python.Python.3.10
+echo 0. Git + Pycharm + Python3.10
+winget install Git.Git Python.Python.3.10 JetBrains.PyCharm
 "%LOCALAPPDATA%\Programs\Python\Python310\python.exe" -m pip install --upgrade pip
 
 echo 1. aiBasic
