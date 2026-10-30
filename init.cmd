@@ -1,8 +1,10 @@
 @echo off
 
-echo 0. Git + Pycharm + Python3.10
-winget install Git.Git Python.Python.3.10 JetBrains.PyCharm
-"%LOCALAPPDATA%\Programs\Python\Python310\python.exe" -m pip install --upgrade pip
+REM echo 0. Git + Pycharm + Python3.10
+REM winget install Git.Git
+REM winget install Python.Python.3.10
+REM winget install JetBrains.PyCharm
+REM "%LOCALAPPDATA%\Programs\Python\Python310\python.exe" -m pip install --upgrade pip
 
 echo 1. aiBasic
 git clone https://github.com/koporepo/aiBasic.git
